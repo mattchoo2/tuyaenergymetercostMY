@@ -83,6 +83,33 @@ sensor:
 - **sensor.utility_energy_meter_daily** 
 - **sensor.utility_energy_meter_monthly** 
 - Replace these two entities in yaml script with your own new entities name created in earlier steps
+
+## Bar Chart Creation
+To display a bar chart in Home Assistant where each bar represents a month's total energy usage and cost, you can utilize the **ApexCharts Card**, a custom Lovelace card that offers advanced graphing capabilities. Here's how to set it up:
+
+**1. Install the ApexCharts Card**:
+
+If you haven't already installed the ApexCharts Card, you can do so via HACS (Home Assistant Community Store):
+
+-   Navigate to **HACS** in your Home Assistant sidebar.
+    
+-   Search for **ApexCharts Card** and install it.
+    
+-   After installation, add the resource to your Lovelace configuration:
+    
+    yaml
+    
+    CopyEdit
+    
+    `resources:
+      - url: /hacsfiles/apexcharts-card/apexcharts-card.js
+        type: module` 
+    
+
+**2. Configure the ApexCharts Card**:
+
+Add the following configuration to your Lovelace dashboard to display a bar chart of monthly energy usage and cost:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTc1MTIwOV19
+eyJoaXN0b3J5IjpbMTM2MjQ4ODY1MSwxOTA5NzUxMjA5XX0=
 -->

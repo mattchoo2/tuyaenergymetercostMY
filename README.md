@@ -170,8 +170,8 @@ series:
 ```
 
 **Note:**
-Energy cost calculation starts from the date you deploy the cost calculation formula.  There may be way to calculate for history data.  I have not figure out yet
+Energy cost calculation *starts from the date you deploy* the cost calculation formula.  There may be way to calculate for history data.  I have not figure out yet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODUwMzc0LDQwMTM3NDgxMCwxOTA5Nz
+eyJoaXN0b3J5IjpbNTM3NzMyNzMwLDQwMTM3NDgxMCwxOTA5Nz
 UxMjA5XX0=
 -->

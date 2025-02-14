@@ -83,3 +83,6 @@ sensor:
 - **sensor.utility_energy_meter_daily** 
 - **sensor.utility_energy_meter_monthly** 
 - Replace these two entities in yaml script with your own new entities name created in earlier steps
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTkwOTc1MTIwOV19
+-->

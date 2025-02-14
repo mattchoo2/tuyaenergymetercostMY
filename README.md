@@ -179,6 +179,6 @@ Energy cost calculation *starts from the date you deploy* the cost calculation f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNzg3NDE5LDQwMTM3NDgxMCwxOTA5Nz
-UxMjA5XX0=
+eyJoaXN0b3J5IjpbLTIxNDYzODQzNjMsOTkyNzg3NDE5LDQwMT
+M3NDgxMCwxOTA5NzUxMjA5XX0=
 -->

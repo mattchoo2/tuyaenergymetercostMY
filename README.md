@@ -173,6 +173,11 @@ series:
 
 **Note:**
 Energy cost calculation *starts from the date you deploy* the cost calculation formula.  There may be way to calculate for history data.  I have not figure out yet
+
+###Sample graph###
+<br>![sensorgraph](https://github.com/mattchoo2/tuyaenergymetercostMY/blob/main/energy.png)
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbOTkyNzg3NDE5LDQwMTM3NDgxMCwxOTA5Nz
 UxMjA5XX0=

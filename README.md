@@ -13,25 +13,30 @@ Tuya Energy Meter - Energy &amp; Cost calculation (Malaysia)
  
  ## New Entities Setup
  ### Power Consumption (kWh)
- 4. Setting > Devices & services > Helpers > Create Helper
- 5. Select "Integral sensor"
+ 1. Setting > Devices & services > Helpers > Create Helper
+ 2. Select "Integral sensor"<br>
   ![kwh](https://github.com/mattchoo2/tuyaenergymetercostMY/blob/main/helper.png)
- 6. Metric = k
- 7. Input sensor = Meter Power (W)
- 8. Integration method = Trapezoidal
- 9. Percision = 2 
+ 3. Metric = k
+ 4. Input sensor = Meter Power (W)
+ 5. Integration method = Trapezoidal
+ 6. Percision = 2 
 
  ### Power Consumption (kWh) per day or per month
- 10. Setting > Devices & services > Helpers > Create Helper
- 11. Select "Utility Meter"
+ 1. Setting > Devices & services > Helpers > Create Helper
+ 2. Select "Utility Meter"<br>
   ![kwhdm](https://github.com/mattchoo2/tuyaenergymetercostMY/blob/main/period%20meter.png)
- 12. Input sensor = choose the new kWh entity
- 13. Reset cycle = day or month accordingly
- 14. Periodically resetting = ON
+ 3. Input sensor = choose the new kWh entity
+ 4. Reset cycle = day or month accordingly
+ 5. Periodically resetting = ON
 
 
  ### Power Cost (MYR) per day or per month
-
+ To calculate your energy costs in Home Assistant based on Malaysia's tiered tariff structure, you can create a template sensor that applies the appropriate rates to your "Tuya Power" entity's cumulative kWh usage. Here's how you can set this up:
+ 1. Access Your Home Assistant Configuration:
+    - Navigate to your Home Assistant configuration directory, typically found at /config.
+ 2. Define a Template Sensor:
+    - Open your configuration.yaml file or a separate sensors file if you have one.
+    - Add the following template sensor configuration:
 ```yaml
 sensor:
   - platform: template

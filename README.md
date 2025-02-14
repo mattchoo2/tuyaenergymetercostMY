@@ -97,13 +97,12 @@ If you haven't already installed the ApexCharts Card, you can do so via HACS (Ho
     
 -   After installation, add the resource to your Lovelace configuration:
     
-    yaml
-    
-    CopyEdit
-    
-    `resources:
+ ```yaml
+      resources:
       - url: /hacsfiles/apexcharts-card/apexcharts-card.js
-        type: module` 
+        type: module 
+ ```
+
     
 
 **2. Configure the ApexCharts Card**:
@@ -111,5 +110,5 @@ If you haven't already installed the ApexCharts Card, you can do so via HACS (Ho
 Add the following configuration to your Lovelace dashboard to display a bar chart of monthly energy usage and cost:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjQ4ODY1MSwxOTA5NzUxMjA5XX0=
+eyJoaXN0b3J5IjpbMTM3NzIyOTg4LDE5MDk3NTEyMDldfQ==
 -->

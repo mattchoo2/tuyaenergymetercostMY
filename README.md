@@ -122,10 +122,55 @@ After installation, you need to add the resource to your Lovelace configuration:
 
 **3. **Add the ApexCharts Card to Your Dashboard**:
 ```yaml
-
+type: custom:apexcharts-card
+apex_config:
+  chart:
+    height: 300px
+experimental:
+  color_threshold: true
+graph_span: 1year
+show:
+  last_updated: false
+header:
+  show: true
+  show_states: true
+  colorize_states: true
+  title: Energy Consumption
+  floating: false
+now:
+  show: true
+  label: now
+  color: red
+yaxis:
+  - min: 0
+    max: ~15
+    decimals: 0
+    apex_config:
+      tickAmount: 5
+series:
+  - entity: sensor.utility_energy_meter_monthly
+    show:
+      header_color_threshold: true
+      extremas: true
+    type: column
+    name: Power used (kWh)
+    statistics:
+      period: month
+      align: start
+      type: state
+  - entity: sensor.monthly_energy_cost
+    name: Cost (MYR)
+    show:
+      header_color_threshold: true
+      extremas: true
+    type: column
+    group_by:
+      func: max
+      duration: 1month
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY4NDQ0MzIsNDAxMzc0ODEwLDE5MD
-k3NTEyMDldfQ==
+eyJoaXN0b3J5IjpbMTAwMDMwNDA4MCw0MDEzNzQ4MTAsMTkwOT
+c1MTIwOV19
 -->

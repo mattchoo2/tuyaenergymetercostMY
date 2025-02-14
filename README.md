@@ -107,9 +107,25 @@ If you haven't already installed the ApexCharts Card, you can do so via HACS (Ho
 
 **2. Configure the ApexCharts Card**:
 
-Add the following configuration to your Lovelace dashboard to display a bar chart of monthly energy usage and cost:
+After installation, you need to add the resource to your Lovelace configuration:
+
+-   **Access the Resources Configuration**:
+    
+    -   In Home Assistant, go to **Settings** > **Dashboards**.
+    -   Click on the three-dot menu in the top-right corner and select **Resources**.
+-   **Add the ApexCharts Card Resource**:
+    
+    -   Click on the **Add Resource** button.
+    -   In the **URL** field, enter `/hacsfiles/apexcharts-card/apexcharts-card.js`.
+    -   In the **Resource Type** dropdown, select **JavaScript Module**.
+    -   Click **Save** to add the resource.
+
+**3. **Add the ApexCharts Card to Your Dashboard**:
+```yaml
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxMzc0ODEwLDE5MDk3NTEyMDldfQ==
+eyJoaXN0b3J5IjpbLTE3NTY4NDQ0MzIsNDAxMzc0ODEwLDE5MD
+k3NTEyMDldfQ==
 -->

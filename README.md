@@ -1,5 +1,5 @@
 ﻿
-# tuyaenergymetercostMY
+# Tuya Energy Meter Cost Malaysia
 Tuya Energy Meter - Energy &amp; Cost calculation (Malaysia) aka Tenaga/ TNB/ MyTNB electricity bill calculation
 
 ## Prior Setup

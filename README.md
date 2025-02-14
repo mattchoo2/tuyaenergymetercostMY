@@ -121,7 +121,7 @@ After installation, you need to add the resource to your Lovelace configuration:
     -   Click **Save** to add the resource.
 
 **3.  Add the ApexCharts Card to Your Dashboard**:
-Add the following configuration to your Lovelace dashboard ("Manual")to display a bar chart of monthly energy usage and cost:
+Add the following configuration to your Lovelace dashboard (***"Manual Card"***) to display a bar chart of monthly energy usage and cost:
 
 ```yaml
 type: custom:apexcharts-card
@@ -174,6 +174,6 @@ series:
 **Note:**
 Energy cost calculation *starts from the date you deploy* the cost calculation formula.  There may be way to calculate for history data.  I have not figure out yet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjYyOTQ3Nyw0MDEzNzQ4MTAsMTkwOT
-c1MTIwOV19
+eyJoaXN0b3J5IjpbOTkyNzg3NDE5LDQwMTM3NDgxMCwxOTA5Nz
+UxMjA5XX0=
 -->

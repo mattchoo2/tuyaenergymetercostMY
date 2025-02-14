@@ -28,6 +28,7 @@ Tuya Energy Meter - Energy &amp; Cost calculation (Malaysia)
  3. Input sensor = choose the new kWh entity
  4. Reset cycle = day or month accordingly
  5. Periodically resetting = ON
+ 6. Offset = you can use this to match data to your energy bill cycle (i keep to zero for ease of reference)
 
 
  ### Power Cost (MYR) per day or per month

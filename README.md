@@ -178,6 +178,11 @@ Energy cost calculation *starts from the date you deploy* the cost calculation f
 ![sensorgraph](https://github.com/mattchoo2/tuyaenergymetercostMY/blob/main/energy.png)
 
 
+## Support Me 💖
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/mattchoo2)
+
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIxNDYzODQzNjMsOTkyNzg3NDE5LDQwMT
 M3NDgxMCwxOTA5NzUxMjA5XX0=
